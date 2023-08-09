@@ -5,7 +5,7 @@ export function Layout({ title, children }) {
   return (
     <>
       <SEO title={title} />
-      <main className="font-nsans bg-gray-700">{children}</main>
+      <main className="font-nsans bg-gray-700 text-gray-100">{children}</main>
     </>
   )
 }
