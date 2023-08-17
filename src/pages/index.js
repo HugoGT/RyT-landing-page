@@ -1,7 +1,8 @@
 import * as React from "react"
-import { Layout } from "../components/layout"
+import { About } from "../components/about"
 import { Header } from "../components/header"
 import { Hero } from "../components/hero"
+import { Layout } from "../components/layout"
 import { Services } from "../components/services"
 
 const links = [
@@ -18,6 +19,7 @@ export default function index() {
       <Header main={"#"} links={links} />
       <Hero />
       <Services />
+      <About />
     </Layout>
   )
 }
