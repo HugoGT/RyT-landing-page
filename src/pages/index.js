@@ -2,6 +2,7 @@ import * as React from "react"
 import { Layout } from "../components/layout"
 import { Header } from "../components/header"
 import { Hero } from "../components/hero"
+import { Services } from "../components/services"
 
 const links = [
   { url: "#", name: "Inicio" },
@@ -16,6 +17,7 @@ export default function index() {
     <Layout title="R&T Inmobiliaria">
       <Header main={"#"} links={links} />
       <Hero />
+      <Services />
     </Layout>
   )
 }
