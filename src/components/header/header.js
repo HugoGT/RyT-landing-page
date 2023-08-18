@@ -2,13 +2,13 @@ import React from "react"
 import { NavLink } from "./navLink.js"
 import { RxHamburgerMenu } from "react-icons/rx"
 
-export function Header({ main, links }) {
+export function Header({ links }) {
   return (
-    <header className="py-3 px-6 sm:px-12 bg-gray-800 flex justify-between items-center text-white">
-      <a href={main} className="h-12 px-2 mt-1">
+    <header className="h-20 py-3 px-6 sm:px-12 bg-gray-800 flex justify-between items-center text-white">
+      {/* <a href={main} className="h-12 px-2 mt-1">
         <img src="/images/ryt-logo.png" alt="logo RyT" className="h-full" />
-      </a>
-      <ul className="hidden sm:flex gap-6 pr-4">
+      </a> */}
+      <ul className="hidden m-auto sm:flex gap-8">
         {links.map(link => (
           <NavLink key={link.url} {...link} />
         ))}

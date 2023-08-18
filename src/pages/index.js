@@ -8,17 +8,16 @@ import { Layout } from "../components/layout"
 import { Services } from "../components/services"
 
 const links = [
-  { url: "#", name: "Inicio" },
-  { url: "#", name: "Servicios" },
-  { url: "#", name: "Nosotros" },
-  { url: "#", name: "Contacto" },
-  { url: "#", name: "Confían en R&T" },
+  { url: "#servicios", name: "Servicios" },
+  { url: "#about", name: "Nosotros" },
+  { url: "#clientes", name: "Confían en R&T" },
+  { url: "#contacto", name: "Contacto" },
 ]
 
 export default function index() {
   return (
     <Layout title="R&T Inmobiliaria">
-      <Header main={"#"} links={links} />
+      <Header links={links} />
       <Hero />
       <Services />
       <About />
