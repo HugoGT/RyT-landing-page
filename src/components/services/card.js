@@ -14,11 +14,11 @@ export function Card({
       } lg:items-center max-w-xl lg:max-w-full border bg-gray-900 border-gray-400 rounded-lg shadow-md overflow-hidden`}
     >
       <img
-        className="p-12 object-cover lg:w-1/2"
+        className="object-cover lg:w-1/2"
         src={image}
         alt="Diseño de proyectos"
       />
-      <div className="p-4 text-center md:p-8">
+      <div className="p-8 text-center md:p-10">
         <p className="text-lg font-semibold pb-4 md:pb-8 lg:pb-4">{name}</p>
         <p>{description}</p>
       </div>
