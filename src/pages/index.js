@@ -1,5 +1,6 @@
 import * as React from "react"
 import { About } from "../components/about"
+import { Clients } from "../components/clients"
 import { Header } from "../components/header"
 import { Hero } from "../components/hero"
 import { Layout } from "../components/layout"
@@ -20,6 +21,7 @@ export default function index() {
       <Hero />
       <Services />
       <About />
+      <Clients />
     </Layout>
   )
 }

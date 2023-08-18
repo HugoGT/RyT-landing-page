@@ -14,6 +14,15 @@ module.exports = {
       fontFamily: {
         nsans: ["Noto Sans", "Noto Sans JP", "sans-serif"],
       },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100rem)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 16s linear infinite",
+      },
     },
   },
   content: [
